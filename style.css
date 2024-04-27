@@ -45,9 +45,20 @@ input {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
+.gallery-items li {
+  position: relative;
+}
 .gallery-items img {
   height: 30rem;
   width: 20rem;
   object-fit: cover;
   border-radius: 1.5rem;
+}
+.gallery-items p {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 0.3rem 0.8rem;
+  background-color: white;
+  border-radius: 1rem;
 }
