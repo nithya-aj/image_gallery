@@ -51,10 +51,13 @@ function filterImages(query) {
     filteredImages.forEach(image => {
         const li = document.createElement('li')
         const img = document.createElement('img')
+        const p = document.createElement('p')
         img.src = image.url
         img.alt = 'image'
-        li.appendChild(img);
-        gallery.appendChild(li);
+        p.textContent = image.category
+        li.appendChild(p)
+        li.appendChild(img)
+        gallery.appendChild(li)
     })
 }
 
