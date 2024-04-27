@@ -2,7 +2,7 @@
 
 An elegant image gallery application that allows users to search for images based on their preferences.
 
-![UI1 Screenshot](src/images/ui.png)
+![UI Screenshot](assets/images/ui.png)
 
 ## Features 
 
