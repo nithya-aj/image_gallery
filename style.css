@@ -62,3 +62,21 @@ input {
   background-color: white;
   border-radius: 1rem;
 }
+
+@media (max-width: 1080px) {
+  .gallery-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1076px) {
+  .gallery-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1410px) {
+  .gallery-items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
