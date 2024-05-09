@@ -3,12 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#7b4ede",
+            },
+            screens: {
+              xs: "320px",
+              sm: "480px",
+              md: "767px",
+              lg: "1025px",
+              xl: "1200px",
+              xxl: "1400px",
+            },
+            fontSizes: {
+              heading: "4.4rem",
+              display1: "3rem",
+              display2: "2.2rem",
+              display3: "1.6rem",
+              display4: "1.4rem",
+              display5: "1.2rem",
+              display6: "1.1rem",
+              normal: "1rem",
+              small: "0.7rem",
+              smaller: "0.65rem",
+            },
+          },
+        },
+      };
+    </script>
     <title>ImageQuest</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body
+    class="xxl:bg-yellow-200 xl:bg-red-200 lg:bg-orange-200 md:bg-violet-200 sm:bg-blue-300 xs:bg-green-200"
+  >
     <div class="container">
-      <h1>Find your perfect image with ImageQuest</h1>
+      <h1 class="text-primary md:text-xs lg:text-5xl">
+        Find your perfect image with ImageQuest
+      </h1>
       <p>Discover over million images at your fingertips!</p>
     </div>
     <div class="search-form">
