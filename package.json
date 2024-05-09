@@ -1,0 +1,14 @@
+{
+  "name": "image_gallery",
+  "version": "1.0.0",
+  "description": "An elegant image gallery application that allows users to search for images based on their preferences.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
