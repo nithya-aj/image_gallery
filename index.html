@@ -9,15 +9,7 @@
         theme: {
           extend: {
             colors: {
-              primary: "#7b4ede",
-            },
-            screens: {
-              xs: "320px",
-              sm: "480px",
-              md: "767px",
-              lg: "1025px",
-              xl: "1200px",
-              xxl: "1400px",
+              primary: "#f7f7f7",
             },
             fontSizes: {
               heading: "4.4rem",
@@ -38,20 +30,20 @@
     <title>ImageQuest</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body
-    class="xxl:bg-yellow-200 xl:bg-red-200 lg:bg-orange-200 md:bg-violet-200 sm:bg-blue-300 xs:bg-green-200"
-  >
-    <div class="container">
-      <h1 class="text-primary md:text-xs lg:text-5xl">
+  <body>
+    <div class="hero_container">
+      <h1 class="text-primary text-2xl xs:text-3xl md:text-4xl lg:text-5xl">
         Find your perfect image with ImageQuest
       </h1>
-      <p>Discover over million images at your fingertips!</p>
+      <p class="text-[#cfd1d0]">
+        Discover over million images at your fingertips!
+      </p>
     </div>
     <div class="search-form">
+      <p class="tag">All Images</p>
       <input type="text" placeholder="Search here for images..." />
     </div>
     <div class="gallery">
-      <p class="tag">All Images</p>
       <ul class="gallery-items"></ul>
     </div>
     <script src="./script.js"></script>
